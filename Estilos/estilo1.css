@@ -1,0 +1,93 @@
+#caja1{
+    width: 90%; 
+    border: 5px solid black;
+    position: relative;
+    padding: 5%;
+    background-color: aqua;
+}
+#caja2{
+    width: 50%;
+    height: 15%;
+    position: absolute;
+    border: 2px solid black;
+    background-color: aquamarine;
+    left: 20%;
+    text-align: center;
+    font-size: 15px;
+    padding: 1%;
+    
+}
+#caja3{
+    width: 25%;
+    height: 30%;
+    position: relative;
+    border: 2px dotted black;
+    top: 25%;
+    left: 30%;
+    background-color: blueviolet;
+}
+#caja4{
+    width: 30%;
+    height: 20%;
+    position: relative;
+    border: 2px double black;
+    top: 45%;
+    left: 60%;
+    background-color: brown;
+}
+#caja5{
+    position: relative;
+    float: left;
+    left: 10%;
+    width: 75%;
+    background-image: url("../imagenes/tetris.jpg");
+    background-size: cover; /* la imagen cubre todo el tamaño del contenedor  */
+    background-repeat: no-repeat; /* la imagen no se repite */
+    background-position: bottom; /* se muestra la parte más baja de la imagen  */
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+#caja6{
+    width: 60%;
+    position: sticky;
+    float: left;
+    border: 2px dashed black;
+    background-color: chartreuse;
+    padding: 1em;
+    display: flex; /* los elementos contenidos dentro de este tendrán la misma altura */
+}
+#caja7{
+    width: 30%;
+    position: absolute;
+    margin: 1em;
+    padding: 1em;
+    border: 2px ridge black; 
+    background-color: darkblue;   
+}
+#caja8{
+    width: 30%;
+    position: relative;
+    margin: 1em;
+    padding: 1em;
+    border: 2px ridge black; 
+    background-color: rgba(0,0,0,0); /* el fondo del contenedor es transparente */
+}
+#caja9{
+    position: fixed;
+    margin: 1em;
+    padding: 1em;
+    border: 2px medium black;
+    top: 70%;
+    left: 50%;
+
+}
+#caja10{
+    position: fixed; /* se utiliza para dejar fijo un elemento */
+    top: 80%;
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid black;
+    background-color: darkcyan;
+}
